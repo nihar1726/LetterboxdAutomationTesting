@@ -362,7 +362,7 @@
           }
         }
       },
-      "LetterboxdLoginLib/1.0.1": {
+      "LetterboxdLoginLib/1.0.4": {
         "type": "package",
         "dependencies": {
           "UiPath.System.Activities": "25.12.0-preview",
@@ -6894,7 +6894,7 @@
           }
         }
       },
-      "LetterboxdLoginLib/1.0.1": {
+      "LetterboxdLoginLib/1.0.4": {
         "type": "package",
         "dependencies": {
           "UiPath.System.Activities": "25.12.0-preview",
@@ -13455,10 +13455,10 @@
         "lib/uap10.0/HtmlAgilityPack.pri"
       ]
     },
-    "LetterboxdLoginLib/1.0.1": {
-      "sha512": "1u9WUsORFcJj8b8nLFl+gRt52ghwCaXt0EutPcvkfG14dt2TcIT+XXTzbZ4BHQ6vbKKtpu1xZnOgR4jz9vf2Ww==",
+    "LetterboxdLoginLib/1.0.4": {
+      "sha512": "lGoY21m7c87JQvptTem6DFc4Dkuef8MpgEODt6aSASFMBwOSzuvGB3enCRA7XqyLVXOEpiVA95gzb2tu6qS8Zg==",
       "type": "package",
-      "path": "letterboxdloginlib/1.0.1",
+      "path": "letterboxdloginlib/1.0.4",
       "files": [
         ".nupkg.metadata",
         "content/.project/PackageBindingsMetadata.json",
@@ -13477,6 +13477,7 @@
         "content/.storage/.runtime/AncestryPersistenceService/856fa3f8-e474-4c3e-a4ad-7378c6c07e19_d023f164-9818-4aec-abd6-a4cbbdae2dce",
         "content/.storage/.runtime/AncestryPersistenceService/8e2254cd-f933-4de9-867c-1f8df829dd9d",
         "content/.storage/.runtime/AncestryPersistenceService/942b5637-5114-4a49-aba6-78e5d1070d6b_19636ba7-b751-4bab-971b-534b90323244",
+        "content/.storage/.runtime/AncestryPersistenceService/fc051d81-5a71-40a5-8634-c08f3ddaabd1",
         "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/08f613b1-aeca-40d8-bd6c-ce6c91864ada.png",
         "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/296f7bc9-4c02-4726-b2eb-0dd81f308308.png",
         "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/5d759a38-337e-40ad-8947-0f729e363c92.png",
@@ -13484,6 +13485,10 @@
         "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/8e2254cd-f933-4de9-867c-1f8df829dd9d.png",
         "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/942b5637-5114-4a49-aba6-78e5d1070d6b.png",
         "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/d0616c01-4acb-41e0-a34a-0caf2dde863a.png",
+        "content/.storage/.runtime/DesignTimeTargetImagePersistenceService/fc051d81-5a71-40a5-8634-c08f3ddaabd1.png",
+        "content/LetterboxdLoginLib.1.0.1.nupkg",
+        "content/LetterboxdLoginLib.1.0.2.nupkg",
+        "content/LetterboxdLoginLib.1.0.3.nupkg",
         "content/LetterboxdLoginLib.Core.pdb",
         "content/Login.xaml",
         "content/Login.xaml.json",
@@ -13525,9 +13530,15 @@
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/Lp4P/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/Lp4P/.data/ObjectRepositoryTargetData/.content",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/Lp4P/.data/ObjectRepositoryTargetData/.hash",
-        "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/Lp4P/.data/ObjectRepositoryTargetData/.images/.design/0J3stlZDLKkKiYfWj5Si6xg",
+        "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/Lp4P/.data/ObjectRepositoryTargetData/.images/.design/0B9rZrkh7skivvHgcWEKU-A",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/Lp4P/.metadata",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/Lp4P/.type",
+        "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/MOHe/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
+        "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/MOHe/.data/ObjectRepositoryTargetData/.content",
+        "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/MOHe/.data/ObjectRepositoryTargetData/.hash",
+        "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/MOHe/.data/ObjectRepositoryTargetData/.images/.design/0_sRGrBfo-Uuq14EIqlJ2CQ",
+        "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/MOHe/.metadata",
+        "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/MOHe/.type",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/YWFt/.data/ObjectRepositoryTargetData/.attributes/SearchHash",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/YWFt/.data/ObjectRepositoryTargetData/.content",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/YWFt/.data/ObjectRepositoryTargetData/.hash",
@@ -13540,7 +13551,7 @@
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/dElA/.data/ObjectRepositoryTargetData/.images/.design/0a3UVmqXjZEGQH6qbHiMoyw",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/dElA/.metadata",
         "contentFiles/any/any/.objects/Jgj9/ZNuu/BJrn/dElA/.type",
-        "letterboxdloginlib.1.0.1.nupkg.sha512",
+        "letterboxdloginlib.1.0.4.nupkg.sha512",
         "letterboxdloginlib.nuspec",
         "lib/net8.0-windows7.0/LetterboxdLoginLib.Core.dll",
         "lib/net8.0-windows7.0/LetterboxdLoginLib.Core.xml",
@@ -25210,7 +25221,7 @@
   "projectFileDependencyGroups": {
     "": [],
     "net8.0-windows7.0": [
-      "LetterboxdLoginLib >= 1.0.1 <= 1.0.1",
+      "LetterboxdLoginLib >= 1.0.4 <= 1.0.4",
       "UiPath.System.Activities >= 25.12.0-preview <= 25.12.0-preview",
       "UiPath.Testing.Activities >= 25.10.0 <= 25.10.0",
       "atuipath_utilities >= 1.0.7 <= 1.0.7"
@@ -25237,7 +25248,7 @@
           "LetterboxdLoginLib": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.0.1, 1.0.1]"
+            "version": "[1.0.4, 1.0.4]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",

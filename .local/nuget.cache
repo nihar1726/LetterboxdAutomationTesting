@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hs448WVmINQ=",
+  "dgSpecHash": "cCsk8N13JJs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Testing\\Documents\\UiPath Project Potfolio\\Letterboxd_Group_07\\.local\\",
   "expectedPackageFiles": [
@@ -26,7 +26,7 @@
     "C:\\Users\\Testing\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\google.apis.gmail.v1.1.55.0.2510.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\google.apis.peopleservice.v1.1.55.0.2567.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\htmlagilitypack\\1.11.38\\htmlagilitypack.1.11.38.nupkg.sha512",
-    "C:\\Users\\Testing\\.nuget\\packages\\letterboxdloginlib\\1.0.1\\letterboxdloginlib.1.0.1.nupkg.sha512",
+    "C:\\Users\\Testing\\.nuget\\packages\\letterboxdloginlib\\1.0.4\\letterboxdloginlib.1.0.4.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\mailkit\\3.1.1\\mailkit.3.1.1.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\markdig.signed\\0.31.0\\markdig.signed.0.31.0.nupkg.sha512",
     "C:\\Users\\Testing\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",
