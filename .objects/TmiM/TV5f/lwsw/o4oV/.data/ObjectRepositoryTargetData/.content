@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4P2GeUrds0OnO7qAqCDPmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="6435b4df-65e8-44c6-9287-68d842d169ca" DesignTimeRectangle="573, 513, 470, 37" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="6ca3c8c8-e65e-4408-ae90-b0de861b0d52" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="0b42a716e683442051847785ec086f1c.jpg" xmlns="">0psFpLNWqo0ymd5hMYjLIGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

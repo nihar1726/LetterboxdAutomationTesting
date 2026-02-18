@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eXGvUBx2VkO7PPTlnK6Cfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="1f52f0c3-edb0-4033-a554-5272060743d6" CvTextArea="582, 558, 176, 13" CvTextArgument="Avatar (2009) James Cameron" CvType="Text" DesignTimeRectangle="574, 550, 453, 29" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='html' tag='LI' /&gt;" Guid="1fc4b325-bf28-4569-b7c4-5ac423391bb1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1f52f0c3-edb0-4033-a554-5272060743d6" CvTextArea="582, 525, 44, 13" CvTextArgument="Avatar" CvType="Text" DesignTimeRectangle="573, 513, 470, 37" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="debe45e8-1733-4a85-86ee-fa3419f2ea70" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d44e74235f217c62eb1fd76a3b1abedd.jpg" xmlns="">0FJF4z_m-JEqtRF_Faf4aEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
