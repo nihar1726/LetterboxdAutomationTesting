@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Watchlist",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "SrqopG-7OEK7t6DyEAy2og",
+  "Reference": "ZUvOEy1d-kWJaPCLmKZ5Mg/SrqopG-7OEK7t6DyEAy2og",
+  "ParentRef": "ZUvOEy1d-kWJaPCLmKZ5Mg/eoTPdmri70Ka9_q_s1KQ4w",
+  "Created": "2026-02-19T09:21:06.681838Z",
+  "Updated": "2026-02-19T09:21:06.681838Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

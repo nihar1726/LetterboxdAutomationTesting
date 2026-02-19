@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HPF3iE0YNES1IABoBF2TUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/tester12/film/dune-2021/activity" DesignTimeRectangle="383, 344, 530, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='activity-table-body' tag='P' /&gt;" Guid="c6611454-77a4-4015-8e5f-c78591bccb83" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Your activity for Dune • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0da2a9573c592480596c9cb727e788bb.jpg" xmlns="">0UBk9izX_IUO841Gb9bOGVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

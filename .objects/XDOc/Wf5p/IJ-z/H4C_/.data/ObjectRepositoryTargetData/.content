@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pKL6om0c8EyXp7KUn5NcbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/Tester12/watchlist" DesignTimeRectangle="326, 274, 670, 287" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section' parentid='content' tag='SECTION' /&gt;" Guid="6b4b2003-5fd2-4fe2-9077-69f1209f8eea" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Tester12’s Watchlist • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2b73ee31c1bcf7a0739cca4fc086adfa.jpg" xmlns="">08KqrnJyssUG8uCgk1PmGvA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

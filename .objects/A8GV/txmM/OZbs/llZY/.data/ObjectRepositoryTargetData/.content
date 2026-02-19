@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fEa5g9yi3Uiyx-QGB02EBw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/tester12/film/dune-2021/activity" DesignTimeRectangle="693, 279, 149, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Watchlist' tag='A' /&gt;" Guid="48907fc1-d0f8-45db-a2af-a9ff2fede338" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Your activity for Dune • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a5355a4349af8c06d8b3c4e5aceb783c.jpg" xmlns="">0C8C5_Xy11ka38qOR2retJg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

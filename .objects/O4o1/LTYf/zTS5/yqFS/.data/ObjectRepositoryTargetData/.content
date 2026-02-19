@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TzWrzvvxCUGSJv3CGaoDyg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/yqFSUAL1WkCg5EHcXgkWMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/film/dune-2021" DesignTimeRectangle="1186, 337, 90, 61" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Add this film to your Watchlist' parentid='userpanel' /&gt;" Guid="b73091a4-f648-4f77-a590-d727adb46303" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Dune (2021) directed by Denis Villeneuve • Reviews, film + cast • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="1644075ba21fb1e66f9685c27e156ff7.jpg" xmlns="">0Vhh3vTEfCUiqX5BiiTDiEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

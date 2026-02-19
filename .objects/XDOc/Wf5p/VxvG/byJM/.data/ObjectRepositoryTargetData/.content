@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Zn81dOjDBEei1NTJzI0Beg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/byJMX1MMKEy5RQJIojClvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" DesignTimeRectangle="1136, 156, 140, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='search-q' matching:id='fuzzy' fuzzylevel:id='0.0' tag='INPUT' aaname='Search:' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3821f092-1d11-46bf-8600-95aab4fb081d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="7dc40d803ebacecfbcb4740f0e810b15.jpg" xmlns="">0lIie6_rbREijjKPXcPkVVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

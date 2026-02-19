@@ -5,7 +5,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "atuipath_utilities": "[1.0.7]",
-    "LetterboxdLoginLib": "[1.0.4]",
+    "LetterboxdLoginLib": "[1.0.6]",
     "UiPath.System.Activities": "[25.12.0-preview]",
     "UiPath.Testing.Activities": "[25.10.0]"
   },
@@ -44,9 +44,10 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
-        "testCaseId": "92903f63-5fbe-4968-ab89-dfa5df3427a1",
+        "testCaseId": "fb3de567-2377-4981-99e2-de8161715437",
         "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "watch.xaml"
       }
     ],
     "saveToCloud": false

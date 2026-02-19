@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="j7LMhL4E0kCBjSm-pq-QDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/search/dune" DesignTimeRectangle="326, 264, 670, 168" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='search-table-body' tag='LI' /&gt;" Guid="e9c1086a-7ffe-4fe9-990a-ae138aaeedab" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for dune • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fe2e0b3f9906703521f6bede5f294160.jpg" xmlns="">0UMHiuGNHgk2HjNG6WCZ-cQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

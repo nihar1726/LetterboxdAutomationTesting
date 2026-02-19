@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZTYb0l3zFk-wGKMAKZ_XrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/Tester12/watchlist" DesignTimeRectangle="794, 237, 76, 44" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Watchlist' class='navlink' parentid='content' /&gt;" Guid="85efca6b-7de6-4c88-b0d1-347ce8060d49" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Tester12’s Watchlist • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="f3e117e386417972da77f634ab507f2a.jpg" xmlns="">0HB3HBgwk6UCw5s6M9YFZLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

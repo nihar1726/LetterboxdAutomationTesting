@@ -1,0 +1,12 @@
+﻿{
+  "Name": "New application(3)",
+  "Type": "App",
+  "Id": "ksu0K9-TiEGVsCvvFwhinw",
+  "Reference": "ZUvOEy1d-kWJaPCLmKZ5Mg/ksu0K9-TiEGVsCvvFwhinw",
+  "Created": "2026-02-19T06:33:03.1976495Z",
+  "Updated": "2026-02-19T06:33:03.1976495Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
