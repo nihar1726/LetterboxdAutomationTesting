@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RpLXE39RokGuaPpLd8dRFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="de12370d-ab1a-4b3b-813d-11fa49c0fca5" CvTextArea="961, 667, 133, 30" CvTextArgument="*****" CvType="Text" DesignTimeRectangle="963, 671, 130, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='rateit-range-2' tag='DIV' /&gt;" Guid="6dfe9569-3439-4fe2-9b38-78d53eec34e8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="de12370d-ab1a-4b3b-813d-11fa49c0fca5" CvTextArea="1036, 647, 58, 12" CvTextArgument="5 out of 5" CvType="Text" DesignTimeRectangle="1038, 646, 55, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='form-note note rating-text' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='5 out of 5' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' parentid='diary-entry-form-ce327b85-1551-4a20-81aa-71b564bd3eb7' check:innerText='5 out of 5' /&gt;" Guid="e81a45b8-92b5-4ddf-b299-110e325e2ff8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cd30f3d72b3ab26158ab1b8b05eddb01.jpg" xmlns="">0kJQ8pVe-3EeSyGZ_D2CwcA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

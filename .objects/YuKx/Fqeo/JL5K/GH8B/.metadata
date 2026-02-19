@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Reviews",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "GH8BIBBsZEWuopD3slDecA",
+  "Reference": "ZUvOEy1d-kWJaPCLmKZ5Mg/GH8BIBBsZEWuopD3slDecA",
+  "ParentRef": "ZUvOEy1d-kWJaPCLmKZ5Mg/JL5KhB0snEmSTMnd4TbLJw",
+  "Created": "2026-02-19T08:41:51.6258425Z",
+  "Updated": "2026-02-19T08:41:51.6258425Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
