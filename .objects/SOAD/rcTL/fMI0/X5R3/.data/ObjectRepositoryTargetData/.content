@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uGJFnnRw0EC8nOEccCkCFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="2dab9bfc-ff30-4307-a259-1a56bc71ae0d" CvTextArea="866, 321, 659, 20" CvTextArgument="Your credentials don't match. It's probably attributable to human error." CvType="Text" DesignTimeRectangle="869, 317, 788, 29" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='signin-message' aaname='Your credentials don’t match. It’s probably attributable to human error.' /&gt;" Guid="5d9a3404-4f14-42b0-8b3b-d461734ad23d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="123b1cf77b435a649983392268b21ddf.jpg" xmlns="">0muf-_xXvsEW7XsBNfzBRgg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
