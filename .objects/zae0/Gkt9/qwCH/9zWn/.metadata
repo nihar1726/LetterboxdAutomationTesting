@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Read notes",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9zWnGMQyB0OklwEqZrk0mw",
+  "Reference": "ZUvOEy1d-kWJaPCLmKZ5Mg/9zWnGMQyB0OklwEqZrk0mw",
+  "ParentRef": "ZUvOEy1d-kWJaPCLmKZ5Mg/qwCHD_TH60qq6Bc8QwtnHQ",
+  "Created": "2026-02-19T06:58:04.8265809Z",
+  "Updated": "2026-02-19T06:58:04.8265809Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
