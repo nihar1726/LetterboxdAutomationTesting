@@ -163,13 +163,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="486,3656" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="522,6519" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <If sap:VirtualizedContainerService.HintSize="452,459" sap2010:WorkflowViewState.IdRef="If_1">
+      <If sap:VirtualizedContainerService.HintSize="488,459" sap2010:WorkflowViewState.IdRef="If_1">
         <If.Condition>
           <InArgument x:TypeArguments="x:Boolean">
             <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">int_reportID.Equals(0)==true</CSharpValue>
@@ -212,7 +212,7 @@
           </Sequence>
         </If.Else>
       </If>
-      <ra:StartSuite ContinueOnError="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="452,118" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="Suite Starts Here">
+      <ra:StartSuite ContinueOnError="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="488,118" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="Suite Starts Here">
         <ra:StartSuite.ReportId>
           <InArgument x:TypeArguments="x:Int32">
             <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">int_reportID</CSharpValue>
@@ -224,7 +224,7 @@
           </OutArgument>
         </ra:StartSuite.suiteId>
       </ra:StartSuite>
-      <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="452,118" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="Test Starts Here">
+      <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="488,118" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="Test Starts Here">
         <ra:StartTest.ReportId>
           <InArgument x:TypeArguments="x:Int32">
             <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">int_reportID</CSharpValue>
@@ -241,7 +241,7 @@
           </OutArgument>
         </ra:StartTest.testId>
       </ra:StartTest>
-      <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="LetterBoxdCredentials" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="452,186" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2">
+      <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="LetterBoxdCredentials" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="488,186" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2">
         <ui:GetRobotCredential.Password>
           <OutArgument x:TypeArguments="ss:SecureString">
             <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">password</CSharpReference>
@@ -253,7 +253,7 @@
           </OutArgument>
         </ui:GetRobotCredential.Username>
       </ui:GetRobotCredential>
-      <l:Login DisplayName="LoginLib" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Login_1">
+      <l:Login DisplayName="LoginLib" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="Login_1">
         <l:Login.in_password>
           <InArgument x:TypeArguments="x:String">
             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">System.Runtime.InteropServices.Marshal.PtrToStringBSTR(System.Runtime.InteropServices.Marshal.SecureStringToBSTR(password))</CSharpValue>
@@ -265,29 +265,86 @@
           </InArgument>
         </l:Login.in_username>
       </l:Login>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,2540" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V2">
+      <uix:NCheckState DisplayName="Check App State 'Tester12'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,1178" sap2010:WorkflowViewState.IdRef="NCheckState_2" Version="V5">
+        <uix:NCheckState.IfExists>
+          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ar:passedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="passedStep_3" str_in_actualStep="Login successfully" str_in_expectedStep="Login successfully" str_in_stepDescription="Login check" str_in_stepName="Login check">
+              <ar:passedStep.str_in_reportId>
+                <InArgument x:TypeArguments="x:Int32">
+                  <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">int_reportID</CSharpValue>
+                </InArgument>
+              </ar:passedStep.str_in_reportId>
+              <ar:passedStep.str_in_testId>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">test_ID</CSharpValue>
+                </InArgument>
+              </ar:passedStep.str_in_testId>
+            </ar:passedStep>
+          </Sequence>
+        </uix:NCheckState.IfExists>
+        <uix:NCheckState.IfNotExists>
+          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ar:failedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="failedStep_2" str_in_actualStep="Login Unsuccessful" str_in_expectedStep="Login Unsuccessful" str_in_stepDescription="Login check" str_in_stepName="Login check">
+              <ar:failedStep.str_in_reportId>
+                <InArgument x:TypeArguments="x:Int32">
+                  <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">int_reportID</CSharpValue>
+                </InArgument>
+              </ar:failedStep.str_in_reportId>
+              <ar:failedStep.str_in_testId>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">test_ID</CSharpValue>
+                </InArgument>
+              </ar:failedStep.str_in_testId>
+            </ar:failedStep>
+          </Sequence>
+        </uix:NCheckState.IfNotExists>
+        <uix:NCheckState.Target>
+          <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="2493626a-c170-4424-9682-3350f6ff054a" ContentHash="tvzf28xK1E6N8AsME4OkZQ" DesignTimeRectangle="579, 157, 113, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' innertext='Tester12' visibleinnertext='TESTER12' /&gt;" Guid="eabeca48-b91d-43eb-b164-9cc33e59e7f9" InformativeScreenshot="f33a44cd3c9fdbab4fff3ceba41c530a.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/onfL3PLFCEq2Gk4I3ut1fw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+        </uix:NCheckState.Target>
+      </uix:NCheckState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,4225" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2346" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,4031" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,266" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="c50df958-7a76-47de-b074-08fd8169cd33" DesignTimeRectangle="1025, 158, 24, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='replace' tag='A' /&gt;" Guid="abe43fcd-056f-463b-911b-31c2c309c2af" InformativeScreenshot="9090c1ac17d361e9cf220d89461f4ca2.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="fe6dc2e1-1aae-4cbe-aef5-0864078660af" ContentHash="NmPqlfCmLUivXFamqA_2XQ" CvElementArea="1017, 152, 143, 35" CvType="InputBox" DesignTimeRectangle="1019, 155, 140, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='search-q' tag='INPUT' type='text' class='field -borderless' aaname='Search:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="279f5d58-9d14-4716-9e6a-421334c4e4c2" InformativeScreenshot="5837cf7e41eed876329bff36edfc473b.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/srRdyLbU7k2nfDOl1Zntyg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:VerifyExecutionOptions.Target>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Search Oscars'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Text="Oscars" Version="V5">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Search Oscars'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Text="Oscars" Version="V5">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="fe6dc2e1-1aae-4cbe-aef5-0864078660af" CvElementArea="1017, 152, 143, 35" CvType="InputBox" DesignTimeRectangle="1019, 155, 140, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='search-q' tag='INPUT' type='text' class='field -borderless' aaname='Search:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="279f5d58-9d14-4716-9e6a-421334c4e4c2" InformativeScreenshot="5837cf7e41eed876329bff36edfc473b.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NTypeInto.Target>
                 <uix:NTypeInto.VerifyOptions>
-                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" ExpectedText="Oscars" Mode="Appears">
                     <uix:VerifyExecutionTypeIntoOptions.Retry>
                       <InArgument x:TypeArguments="x:Boolean" />
                     </uix:VerifyExecutionTypeIntoOptions.Retry>
@@ -297,47 +354,129 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Oscars HQ Oscars'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+                <ui:LogMessage.Message>
+                  <InArgument x:TypeArguments="x:Object">
+                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">"Successful search for oscars"</CSharpValue>
+                  </InArgument>
+                </ui:LogMessage.Message>
+              </ui:LogMessage>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Oscars HQ Oscars'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,266" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com/search/Oscars" CVScreenId="87647309-a275-4cd4-a1fb-392fb102ab9f" ContentHash="R0y8Ad-KXUSF34KNTlSgng" DesignTimeRectangle="299, 283, 90, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='search-table-body' aaname=' Oscars HQ ' /&gt;" Guid="5982e551-43f6-4d99-a311-47137fd64fd5" InformativeScreenshot="677dc3c924052901409b2700cccf5cf5.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/PjkCUWClFku0FRL1gJcEBw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="letterboxd.com/search/oscars" ContentHash="S6t-dMSZnEq_etGWlQOhaw" DesignTimeRectangle="12, -2266, 1343, 5391" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='content' /&gt;" Guid="4b97429f-a27c-47f2-9032-d62f173703df" InformativeScreenshot="6c7c49bf5bebaf7eeedf337db0db1ad0.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/pa7d5bsxP06LLTsFU2bb4w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                    </uix:VerifyExecutionOptions.Target>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <ar:passedStep sap:VirtualizedContainerService.HintSize="416,387" sap2010:WorkflowViewState.IdRef="passedStep_1" str_in_actualStep="Oscars result shown Successfully" str_in_expectedStep="Oscars result shown Successfully" str_in_stepDescription="Result Shown" str_in_stepName="Result Shown">
-                <ar:passedStep.str_in_reportId>
-                  <InArgument x:TypeArguments="x:Int32">
-                    <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">int_reportID</CSharpValue>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+                <ui:LogMessage.Message>
+                  <InArgument x:TypeArguments="x:Object">
+                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">"Successfully clicked on Oscars HQ"</CSharpValue>
                   </InArgument>
-                </ar:passedStep.str_in_reportId>
-                <ar:passedStep.str_in_testId>
-                  <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">test_ID</CSharpValue>
-                  </InArgument>
-                </ar:passedStep.str_in_testId>
-              </ar:passedStep>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'The 98th Academy Award …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+                </ui:LogMessage.Message>
+              </ui:LogMessage>
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,230" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="3" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'The 98th Academy Award …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,266" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com/oscars" CVScreenId="600ee537-a993-4f25-92b0-f9cf98246871" ContentHash="2PcrQJBLMUOdpvtVV5yRzg" DesignTimeRectangle="129, 442, 386, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='The 98th Academy Award Nominees: All Feature Films' parentid='content' tag='A' innertext='The 98th Academy Award Nominees: All Feature Films' visibleinnertext='The 98th Academy Award Nominees: All Feature Films' /&gt;" Guid="169c61f1-cab4-4d91-9368-923cc8d7a5fa" InformativeScreenshot="fe15ba15e910c9ec0a1670f6a7313d72.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/a2wYRSyyAUe6MZmR9J_AWQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Oscars’s HQ profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="letterboxd.com/oscars/list/the-98th-academy-award-nominees-all-feature" ContentHash="LvOudgJ3j0Wi6UXUmugHaQ" DesignTimeRectangle="12, 92, 1343, 675" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' /&gt;" Guid="c1cc6359-bb94-4ab4-b558-e556bf55126e" InformativeScreenshot="b1f69ca5850b023f2d57966b86d893c6.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/4BCR1THjT0eFB9w1lBkUbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎The 98th Academy Award Nominees: All Feature Films, a list of films by Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                    </uix:VerifyExecutionOptions.Target>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Read notes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
+                <ui:LogMessage.Message>
+                  <InArgument x:TypeArguments="x:Object">
+                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">"Successfully clicked on 98th academy award"</CSharpValue>
+                  </InArgument>
+                </ui:LogMessage.Message>
+              </ui:LogMessage>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Read notes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,266" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com/oscars/list/the-98th-academy-award-nominees-all-feature" CVScreenId="fb70c0c5-4ba0-499b-a7dd-b4d4b1a6eb90" ContentHash="6Mt1OLedIkeKhpka0TbP-g" DesignTimeRectangle="770, 565, 109, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Read notes' parentid='content' tag='A' innertext='Read notes' visibleinnertext='Read notes' /&gt;" Guid="cd6058d3-3d15-4add-bd10-3461eb8a95f6" InformativeScreenshot="f2062466423c251b6ac7ecb78fd0edb1.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/9zWnGMQyB0OklwEqZrk0mw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎The 98th Academy Award Nominees: All Feature Films, a list of films by Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="letterboxd.com/oscars/list/the-98th-academy-award-nominees-all-feature" ContentHash="LvOudgJ3j0Wi6UXUmugHaQ" DesignTimeRectangle="12, 92, 1343, 675" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' /&gt;" Guid="c1cc6359-bb94-4ab4-b558-e556bf55126e" InformativeScreenshot="b1f69ca5850b023f2d57966b86d893c6.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/4BCR1THjT0eFB9w1lBkUbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎The 98th Academy Award Nominees: All Feature Films, a list of films by Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                    </uix:VerifyExecutionOptions.Target>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="20" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5" />
-              <ar:passedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="passedStep_2" str_in_actualStep="Read notes successful" str_in_expectedStep="Read notes successful" str_in_stepDescription="Read notes are shown" str_in_stepName="Read Notes">
-                <ar:passedStep.str_in_reportId>
-                  <InArgument x:TypeArguments="x:Int32">
-                    <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">int_reportID</CSharpValue>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+                <ui:LogMessage.Message>
+                  <InArgument x:TypeArguments="x:Object">
+                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">"Successfully click on read notes"</CSharpValue>
                   </InArgument>
-                </ar:passedStep.str_in_reportId>
-                <ar:passedStep.str_in_testId>
-                  <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">test_ID</CSharpValue>
-                  </InArgument>
-                </ar:passedStep.str_in_testId>
-              </ar:passedStep>
+                </ui:LogMessage.Message>
+              </ui:LogMessage>
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,230" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="20" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5" />
+              <uix:NCheckState DisplayName="Check App State 'The 98th Academy Award …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1224" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ar:passedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="passedStep_2" str_in_actualStep="Read notes successful" str_in_expectedStep="Read notes successful" str_in_stepDescription="Read notes are shown" str_in_stepName="Read Notes">
+                      <ar:passedStep.str_in_reportId>
+                        <InArgument x:TypeArguments="x:Int32">
+                          <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">int_reportID</CSharpValue>
+                        </InArgument>
+                      </ar:passedStep.str_in_reportId>
+                      <ar:passedStep.str_in_testId>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">test_ID</CSharpValue>
+                        </InArgument>
+                      </ar:passedStep.str_in_testId>
+                    </ar:passedStep>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ar:failedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="failedStep_1" str_in_actualStep="Read notes unsuccessful" str_in_expectedStep="Read notes unsuccessful" str_in_stepDescription="Read notes are shown" str_in_stepName="Read Notes">
+                      <ar:failedStep.str_in_reportId>
+                        <InArgument x:TypeArguments="x:Int32">
+                          <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">int_reportID</CSharpValue>
+                        </InArgument>
+                      </ar:failedStep.str_in_reportId>
+                      <ar:failedStep.str_in_testId>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">test_ID</CSharpValue>
+                        </InArgument>
+                      </ar:failedStep.str_in_testId>
+                    </ar:failedStep>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="letterboxd.com/oscars/list/the-98th-academy-award-nominees-all-feature/detail" CVScreenId="8f608fd5-ad9d-4681-8e49-1c4d73421ac7" ContentHash="GVtr30og9k-5rAwbBhLN_A" DesignTimeRectangle="209, 306, 670, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='content' aaname='The 98th Academy Award Nominees: All Feature Films' innertext='The 98th Academy Award Nominees: All Feature Films' /&gt;" Guid="2267aa7d-f20d-4163-ab09-3b4a439804b3" InformativeScreenshot="b615869d51cf3b128989a0cf9bb0996d.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/0AlpcRzONEiE4DG3-U48Hw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎The 98th Academy Award Nominees: All Feature Films, a list of films by Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
