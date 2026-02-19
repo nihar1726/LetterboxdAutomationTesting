@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Hdpy8zQS00yR5ZKp5mZhHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/Tester12/films" CVScreenId="3df2c4c3-cfc2-4e20-a3e4-3a501baf51ab" CvTextArea="506, 271, 104, 18" CvTextArgument="I watched..." CvType="Text" DesignTimeRectangle="508, 272, 102, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='I watched…' parentid='diary-entry-form-modal-title' tag='SPAN' /&gt;" Guid="fb2d8a7b-537d-4947-8a98-8e19dbf20e78" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Tester12’s films • Letterboxd' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3df2c4c3-cfc2-4e20-a3e4-3a501baf51ab" CvElementArea="418, 263, 78, 35" CvTextArea="442, 275, 42, 12" CvTextArgument="BACK" CvType="Button" DesignTimeRectangle="444, 275, 40, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='diary-entry-form-modal' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' aaname='Back' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='BACK' /&gt;" Guid="224330ef-d0c1-41b4-ad0b-2d96ec4703f3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="13be17a5dff820e1cbff8b52b1195685.jpg" xmlns="">0IUfoZ0-Emk6ZPXvGxvzjrg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

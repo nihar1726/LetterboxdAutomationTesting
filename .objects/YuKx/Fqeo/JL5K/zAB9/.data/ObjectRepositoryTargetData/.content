@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1LzzD-evFkKgQ24oDlhy3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="2c5d5ede-f5e0-48cb-8376-76eb9f39db9a" DesignTimeRectangle="963, 613, 130, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='rateit-range-2' parentid='diary-entry-form-ce327b85-1551-4a20-81aa-71b564bd3eb7' /&gt;" Guid="e6e26ffd-9c00-4ed7-81e7-155d58369319" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="60edebbcb8de9afd3747bcbf0d4419b4.jpg" xmlns="">0WvbO-Tr3uUyXfkNSCaZV7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

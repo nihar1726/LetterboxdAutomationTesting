@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YTs-vw1FWk257oAJ87dbsA" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/kH3n_9TYSUqqkcnxMZFsZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="d0451d7a-498d-4bb6-8282-beef932b3da1" CvTextArea="582, 549, 176, 13" CvTextArgument="Avatar (2009) James Cameron" CvType="Text" DesignTimeRectangle="574, 541, 433, 30" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='html' tag='LI' /&gt;" Guid="2f60d6b8-341e-422c-bc82-10131752ab9f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d0451d7a-498d-4bb6-8282-beef932b3da1" CvTextArea="582, 516, 44, 13" CvTextArgument="Avatar" CvType="Text" DesignTimeRectangle="573, 504, 470, 37" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='text' /&gt;" Guid="e96c3dde-5ba1-4a3b-ab54-1be326cd53ea" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="247b40bbac1da64bc0879a1b06ab24b6.jpg" xmlns="">0W5ItS1uJRkWtXgigtG4SGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,11 +1,11 @@
-﻿{
+{
   "name": "Letterboxd_Group_07",
   "projectId": "fcd8bece-fd43-48d8-8283-5977686eb286",
   "description": "Group 07 PPT - February 20, 2026",
   "main": "Main.xaml",
   "dependencies": {
     "atuipath_utilities": "[1.0.7]",
-    "LetterboxdLoginLib": "[1.0.4]",
+    "LetterboxdLoginLib": "[1.0.6]",
     "UiPath.System.Activities": "[25.12.0-preview]",
     "UiPath.Testing.Activities": "[25.10.0]"
   },
@@ -46,7 +46,7 @@
         "editingStatus": "InProgress",
         "testCaseId": "92903f63-5fbe-4968-ab89-dfa5df3427a1",
         "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
+        "fileName": "FilmLog.xaml"
       }
     ],
     "saveToCloud": false

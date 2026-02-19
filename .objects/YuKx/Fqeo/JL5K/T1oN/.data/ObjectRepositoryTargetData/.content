@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IqZQ6EloT0SzeuC7ej5IdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="229463c3-e2c0-4554-ba88-3d3695fd6fe6" CvElementArea="651, 701, 274, 39" CvType="InputBox" DesignTimeRectangle="653, 704, 270, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='frm-tags' tag='INPUT' type='text' class='tag-input-field field tt-input' placeholder='eg. netflix' aaname='Tags' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="12f74f35-f9d5-47cf-8bfe-544851b76bfe" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="229463c3-e2c0-4554-ba88-3d3695fd6fe6" CvTextArea="651, 684, 31, 15" CvTextArgument="Tags" CvType="Text" DesignTimeRectangle="653, 682, 28, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Tags' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='LABEL' check:innerText='Tags' /&gt;" Guid="fdfcb5b0-80a4-4a84-8755-e0a191a0bdec" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c61b5b2c6128e478558c47cfc02c5785.jpg" xmlns="">0JdVC1xqYR02ksgh2S9csGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
