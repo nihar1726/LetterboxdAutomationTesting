@@ -298,7 +298,7 @@
               <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,261" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Oscars HQ Oscars'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="letterboxd.com/search/oscars" CVScreenId="90e4fcc5-c97b-4a8d-a88f-c47126e7c730" ContentHash="B5gUXDkh7UipTddXt7W_UQ" DesignTimeRectangle="382, 422, 135, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='name' parentid='search-table-body' aaname=' Oscars HQ ' /&gt;" Guid="3f3265f8-81f7-4192-a5bc-42eff9be31c2" InformativeScreenshot="9e847021fc5c420a9c7becf11b54fe7e.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/PjkCUWClFku0FRL1gJcEBw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  <uix:TargetAnchorable BrowserURL="letterboxd.com/search/Oscars" CVScreenId="87647309-a275-4cd4-a1fb-392fb102ab9f" ContentHash="R0y8Ad-KXUSF34KNTlSgng" DesignTimeRectangle="299, 283, 90, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='search-table-body' aaname=' Oscars HQ ' /&gt;" Guid="5982e551-43f6-4d99-a311-47137fd64fd5" InformativeScreenshot="677dc3c924052901409b2700cccf5cf5.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/PjkCUWClFku0FRL1gJcEBw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
               </uix:NClick>
               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'The 98th Academy Award …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
@@ -329,7 +329,7 @@
         </uix:NApplicationCard.OCREngine>
         <uix:NApplicationCard.OpenMode>
           <InArgument x:TypeArguments="uix:NAppOpenMode">
-            <CSharpValue x:TypeArguments="uix:NAppOpenMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">UiPath.UIAutomationNext.Enums.NAppOpenMode.Always</CSharpValue>
+            <CSharpValue x:TypeArguments="uix:NAppOpenMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">UiPath.UIAutomationNext.Enums.NAppOpenMode.Never</CSharpValue>
           </InArgument>
         </uix:NApplicationCard.OpenMode>
         <uix:NApplicationCard.TargetApp>
