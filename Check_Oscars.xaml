@@ -137,7 +137,7 @@
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="841,2916" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="592,2944" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="username">
         <sap:WorkflowViewStateService.ViewState>
@@ -161,7 +161,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="486,2893" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="486,2921" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -263,24 +263,24 @@
           </InArgument>
         </l:Login.in_username>
       </l:Login>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1754" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1782" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1560" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1588" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="c50df958-7a76-47de-b074-08fd8169cd33" ContentHash="Fpzo1Lx_M0O7HTwQuvB0FQ" DesignTimeRectangle="1025, 158, 24, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='replace' tag='A' /&gt;" Guid="abe43fcd-056f-463b-911b-31c2c309c2af" InformativeScreenshot="9090c1ac17d361e9cf220d89461f4ca2.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/6mvgSo-xU02z04sOy_IiTQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="c50df958-7a76-47de-b074-08fd8169cd33" DesignTimeRectangle="1025, 158, 24, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='replace' tag='A' /&gt;" Guid="abe43fcd-056f-463b-911b-31c2c309c2af" InformativeScreenshot="9090c1ac17d361e9cf220d89461f4ca2.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Search Oscars'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Text="Oscars" Version="V5">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Search Oscars'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Text="Oscars" Version="V5">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="fe6dc2e1-1aae-4cbe-aef5-0864078660af" CvElementArea="1017, 152, 143, 35" CvType="InputBox" DesignTimeRectangle="1019, 155, 140, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='search-q' tag='INPUT' type='text' class='field -borderless' aaname='Search:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="279f5d58-9d14-4716-9e6a-421334c4e4c2" InformativeScreenshot="5837cf7e41eed876329bff36edfc473b.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NTypeInto.Target>
@@ -295,18 +295,18 @@
                   </uix:VerifyExecutionTypeIntoOptions>
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
-              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Oscars HQ Oscars'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,261" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Oscars HQ Oscars'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com/search/Oscars" ContentHash="B5gUXDkh7UipTddXt7W_UQ" DesignTimeRectangle="209, 264, 670, 78" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='search-table-body' tag='LI' visibleinnertext='Oscars HQ&amp;#xA;Oscars' /&gt;" Guid="e2a34eff-17b4-4f4a-931b-153776abe363" InformativeScreenshot="3740b289444f3d5a4bdfe6024654d4af.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/PjkCUWClFku0FRL1gJcEBw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'The 98th Academy Award …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'The 98th Academy Award …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com/oscars" CVScreenId="600ee537-a993-4f25-92b0-f9cf98246871" ContentHash="2PcrQJBLMUOdpvtVV5yRzg" DesignTimeRectangle="129, 442, 386, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='The 98th Academy Award Nominees: All Feature Films' parentid='content' tag='A' innertext='The 98th Academy Award Nominees: All Feature Films' visibleinnertext='The 98th Academy Award Nominees: All Feature Films' /&gt;" Guid="169c61f1-cab4-4d91-9368-923cc8d7a5fa" InformativeScreenshot="fe15ba15e910c9ec0a1670f6a7313d72.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/a2wYRSyyAUe6MZmR9J_AWQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Oscars’s HQ profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Read notes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Read notes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dabb3133-e643-4969-b5bb-81fb452b066a" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="letterboxd.com/oscars/list/the-98th-academy-award-nominees-all-feature" CVScreenId="fb70c0c5-4ba0-499b-a7dd-b4d4b1a6eb90" ContentHash="6Mt1OLedIkeKhpka0TbP-g" DesignTimeRectangle="770, 565, 109, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Read notes' parentid='content' tag='A' innertext='Read notes' visibleinnertext='Read notes' /&gt;" Guid="cd6058d3-3d15-4add-bd10-3461eb8a95f6" InformativeScreenshot="f2062466423c251b6ac7ecb78fd0edb1.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/9zWnGMQyB0OklwEqZrk0mw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎The 98th Academy Award Nominees: All Feature Films, a list of films by Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
