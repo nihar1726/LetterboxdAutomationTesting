@@ -1,0 +1,505 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="AuthorName" this:AuthorName.int_reportID="0" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ar="clr-namespace:atuipath_utilities.Report;assembly=atuipath_utilities" xmlns:l="clr-namespace:LetterboxdLoginLib;assembly=LetterboxdLoginLib" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="test_ID" Type="OutArgument(x:String)" />
+    <x:Property Name="suite_ID" Type="OutArgument(x:String)" />
+    <x:Property Name="int_reportID" Type="InArgument(x:Int32)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>LetterboxdLoginLib</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
+      <x:String>atuipath_utilities.Report</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>LetterboxdLoginLib.Core</AssemblyReference>
+      <AssemblyReference>LetterboxdLoginLib</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Jira.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Text.Json</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>atuipath_utilities</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="596,6284.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="username" />
+      <Variable x:TypeArguments="ss:SecureString" Name="password" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <If sap:VirtualizedContainerService.HintSize="488,461.3333333333333" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Condition>
+        <InArgument x:TypeArguments="x:Boolean">
+          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">int_reportID.Equals(0)==true</CSharpValue>
+        </InArgument>
+      </If.Condition>
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,226.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ra:CreateReport ContinueOnError="{x:Null}" DisplayName="Create Report" sap:VirtualizedContainerService.HintSize="416,162.66666666666666" sap2010:WorkflowViewState.IdRef="CreateReport_1" ReportName="Director Search">
+            <ra:CreateReport.ReportLocation>
+              <InArgument x:TypeArguments="x:String">
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\Downloads\\prj-Reports"</CSharpValue>
+              </InArgument>
+            </ra:CreateReport.ReportLocation>
+            <ra:CreateReport.isCreated>
+              <OutArgument x:TypeArguments="x:Int32">
+                <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">int_reportID</CSharpReference>
+              </OutArgument>
+            </ra:CreateReport.isCreated>
+          </ra:CreateReport>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,94.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+    <ra:StartSuite ContinueOnError="{x:Null}" DisplayName="Start Suite" sap:VirtualizedContainerService.HintSize="488,118.66666666666667" sap2010:WorkflowViewState.IdRef="StartSuite_1" SuiteName="Director Searching">
+      <ra:StartSuite.ReportId>
+        <InArgument x:TypeArguments="x:Int32">
+          <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">int_reportID</CSharpValue>
+        </InArgument>
+      </ra:StartSuite.ReportId>
+      <ra:StartSuite.suiteId>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">suite_ID</CSharpReference>
+        </OutArgument>
+      </ra:StartSuite.suiteId>
+    </ra:StartSuite>
+    <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="488,118.66666666666667" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="Searching Director Name">
+      <ra:StartTest.ReportId>
+        <InArgument x:TypeArguments="x:Int32">
+          <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">int_reportID</CSharpValue>
+        </InArgument>
+      </ra:StartTest.ReportId>
+      <ra:StartTest.SuiteId>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">suite_ID</CSharpValue>
+        </InArgument>
+      </ra:StartTest.SuiteId>
+      <ra:StartTest.testId>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">test_ID</CSharpReference>
+        </OutArgument>
+      </ra:StartTest.testId>
+    </ra:StartTest>
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="LetterboxdValidLogin" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="488,187.33333333333334" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
+      <ui:GetRobotCredential.Password>
+        <OutArgument x:TypeArguments="ss:SecureString">
+          <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">password</CSharpReference>
+        </OutArgument>
+      </ui:GetRobotCredential.Password>
+      <ui:GetRobotCredential.Username>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">username</CSharpReference>
+        </OutArgument>
+      </ui:GetRobotCredential.Username>
+    </ui:GetRobotCredential>
+    <l:Login DisplayName="login" sap:VirtualizedContainerService.HintSize="488,176.66666666666666" sap2010:WorkflowViewState.IdRef="Login_1">
+      <l:Login.in_password>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">System.Runtime.InteropServices.Marshal.PtrToStringBSTR(System.Runtime.InteropServices.Marshal.SecureStringToBSTR(password))</CSharpValue>
+        </InArgument>
+      </l:Login.in_password>
+      <l:Login.in_username>
+        <InArgument x:TypeArguments="x:String">
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">username</CSharpValue>
+        </InArgument>
+      </l:Login.in_username>
+    </l:Login>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">"Login Successful"</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Letterboxd • Social film discovery." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,5022.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,4828" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'A #'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,271.3333333333333" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="e1004c36-8a89-4633-a91f-79a3b24f5a9b" ContentHash="bXfXLY6jSky7jlaESbjmXg" DesignTimeRectangle="1142, 158, 24, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='replace' parentclass='navitem -search js-nav-search-toggle' /&gt;" Guid="6a3c18a9-e2d3-4a6e-85d9-fcf4a8b854ba" InformativeScreenshot="b3e968d07fe72d423558cffc6848981f.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/1BLiv7ufck-QN3DbljZkqg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="44328391-56e3-4a1c-b2f6-ace2dd553429" ContentHash="IbknUM5RT0GvZRKLnQBKDw" DesignTimeRectangle="1136, 155, 140, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='search-q' matching:id='fuzzy' fuzzylevel:id='0.0' aaname='Search:' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="728166c0-ddd0-4241-957e-a46ffbefad34" InformativeScreenshot="ff15394d255fdf676ba9ebceb0830249.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/jsvv2heBaUy0dJWjLBSVbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Verification target'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,252" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com" CVScreenId="c4dc0eea-3681-471a-b1f8-0a1a54386416" DesignTimeRectangle="1462, 233, 210, 45" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='search-q' matching:id='fuzzy' fuzzylevel:id='0.0' type='text' aaname='Search:' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="972ae25a-2dbd-4b9c-be79-80c94e76b001" InformativeScreenshot="1e854c4059a79e36725c9271c60c48d1.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.Text>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">"Sean Baker"+"[k(enter)]"</CSharpValue>
+                </InArgument>
+              </uix:NTypeInto.Text>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,180.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
+              <ui:LogMessage.Message>
+                <InArgument x:TypeArguments="x:Object">
+                  <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">"Searched Sean Baker"</CSharpValue>
+                </InArgument>
+              </ui:LogMessage.Message>
+            </ui:LogMessage>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sean Baker Patron(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/search/Sean+Baker" CVScreenId="887448c5-5da1-42df-aff9-c05b42f670bc" DesignTimeRectangle="382, 617, 222, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='search-table-body' innertext=' Sean Baker Patron ' visibleinnertext='Sean Baker PATRON' /&gt;" Guid="c43dc8b3-dc65-4c99-82ae-511abfa4091c" InformativeScreenshot="58e92d7f748426ab59f5f239105591c2.jpg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for Sean Baker • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Follow'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,914" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,326" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Follow(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,262" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="letterboxd.com/lilfilm" CVScreenId="874616cb-efd6-49b4-bdb5-bdd1c40498b3" ContentHash="3nscsel4QU6NyDCsXG2WOw" DesignTimeRectangle="658, 636, 53, 11" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Follow' parentid='content' visibleinnertext='FOLLOW' idx='2' /&gt;" Guid="68332f6b-9e41-483c-951f-d9bcc7a55115" InformativeScreenshot="19416e565f9646889357b00e72bfae25.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/x0h7KviJzE2Eau9feOllpQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Sean Baker’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable BrowserURL="letterboxd.com/lilfilm" CVScreenId="ab0f8c49-e4c7-4079-83ce-72195400c614" ContentHash="EOGgb7Z990aV3NPx4p2QSA" DesignTimeRectangle="648, 629, 97, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Following' innertext='Following' visibleinnertext='FOLLOWING' /&gt;" Guid="e57ddf20-568f-4e68-8d12-e557aa8905f2" InformativeScreenshot="cb5db8dbf1ed0063903d7ed21a082a58.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/T6OBwEV3zUq1DSRzRI6fAA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Sean Baker’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,235.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,171.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">"Already Followed"</CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/lilfilm" CVScreenId="874616cb-efd6-49b4-bdb5-bdd1c40498b3" ContentHash="zUIjQkAZCEGxgELvC8VSpA" DesignTimeRectangle="648, 629, 73, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Follow' parentid='content' innertext='Follow' visibleinnertext='FOLLOW' /&gt;" Guid="cf882ab9-e472-4072-9937-3504282e2eae" InformativeScreenshot="e789dcec170ac2929ef3a7646a0bb606.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/NZKdAFIo-0qyvdg6oeigTw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Sean Baker’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NCheckState DisplayName="Check App State 'Sean Baker'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1244.6666666666667" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,446" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ar:passedStep sap:VirtualizedContainerService.HintSize="416,382" sap2010:WorkflowViewState.IdRef="passedStep_1" str_in_actualStep="Searched &amp; Followed Successfully" str_in_expectedStep="Searched &amp; Followed Successfully" str_in_stepDescription="Following my Favourite Director " str_in_stepName="Following Director">
+                    <ar:passedStep.str_in_reportId>
+                      <InArgument x:TypeArguments="x:Int32">
+                        <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">int_reportID</CSharpValue>
+                      </InArgument>
+                    </ar:passedStep.str_in_reportId>
+                    <ar:passedStep.str_in_testId>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">test_ID</CSharpValue>
+                      </InArgument>
+                    </ar:passedStep.str_in_testId>
+                  </ar:passedStep>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,446" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ar:failedStep sap:VirtualizedContainerService.HintSize="416,382" sap2010:WorkflowViewState.IdRef="failedStep_1" str_in_actualStep="Searching Unsuccessful" str_in_expectedStep="Searched &amp; Followed Successfully" str_in_stepDescription="Following my Favourite Director " str_in_stepName="Following Director">
+                    <ar:failedStep.str_in_reportId>
+                      <InArgument x:TypeArguments="x:Int32">
+                        <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">int_reportID</CSharpValue>
+                      </InArgument>
+                    </ar:failedStep.str_in_reportId>
+                    <ar:failedStep.str_in_testId>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">test_ID</CSharpValue>
+                      </InArgument>
+                    </ar:failedStep.str_in_testId>
+                  </ar:failedStep>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/lilfilm" CVScreenId="874616cb-efd6-49b4-bdb5-bdd1c40498b3" ContentHash="nNG2HU7VmEqv3W9WFD_USw" DesignTimeRectangle="451, 629, 120, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Sean Baker' parentid='content' innertext='Sean Baker' visibleinnertext='Sean Baker' /&gt;" Guid="8a0dc849-cc03-4682-ab27-96e4be7f90c8" InformativeScreenshot="6c6b8962b62468f9e9d843da9386636c.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/JgXPSkwAFEWuM3oaucQwkA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Sean Baker’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Tester12'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,271.3333333333333" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/lilfilm" CVScreenId="47cb0e73-2711-48dc-97c7-eed2d3474983" ContentHash="XWUK4U5Z8kWLYWgu1HurbQ" DesignTimeRectangle="696, 157, 113, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' innertext='Tester12' visibleinnertext='TESTER12' /&gt;" Guid="c463fa72-7a4a-4eaa-aa5b-bfb52cf56610" InformativeScreenshot="9556d2e13f88e2968a2cfa6a5091dd7e.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/EOJnkp14hUiwkguQsigxcQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Sean Baker’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="Verification target" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="letterboxd.com/lilfilm" CVScreenId="720bb3c8-982a-459a-b4e5-c83337958c95" ContentHash="PVKVSz-VCUeRht2azRApBA" DesignTimeRectangle="12, 135, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Network' innertext='Network' visibleinnertext='Network' /&gt;" Guid="91fe4ed6-99a1-4f01-8298-727b08cca04f" InformativeScreenshot="96f8d34c87a8ea60f3298022274fd4a8.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/ZBx-vWsUcUOKQ5IgmXOK-g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Sean Baker’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Network" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,199.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/lilfilm" CVScreenId="720bb3c8-982a-459a-b4e5-c83337958c95" ContentHash="PVKVSz-VCUeRht2azRApBA" DesignTimeRectangle="12, 135, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Network' innertext='Network' visibleinnertext='Network' /&gt;" Guid="91fe4ed6-99a1-4f01-8298-727b08cca04f" InformativeScreenshot="96f8d34c87a8ea60f3298022274fd4a8.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/ZBx-vWsUcUOKQ5IgmXOK-g" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Sean Baker’s profile • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Sean Baker(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1231.3333333333333" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="de8807b5-824a-407e-8b2f-f7fb9928f621" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,446" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ar:passedStep sap:VirtualizedContainerService.HintSize="416,382" sap2010:WorkflowViewState.IdRef="passedStep_2" str_in_actualStep="Director is displayed" str_in_expectedStep="Director has to be displayed" str_in_stepDescription="Director name is displayed in following" str_in_stepName="Director in following ">
+                    <ar:passedStep.str_in_reportId>
+                      <InArgument x:TypeArguments="x:Int32">
+                        <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">int_reportID</CSharpValue>
+                      </InArgument>
+                    </ar:passedStep.str_in_reportId>
+                    <ar:passedStep.str_in_testId>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">test_ID</CSharpValue>
+                      </InArgument>
+                    </ar:passedStep.str_in_testId>
+                  </ar:passedStep>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,442" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ar:failedStep sap:VirtualizedContainerService.HintSize="416,378" sap2010:WorkflowViewState.IdRef="failedStep_2" str_in_actualStep="Director is not followed" str_in_expectedStep="Director has to be displayed" str_in_stepDescription="Director name is displayed in following" str_in_stepName="Director in following ">
+                    <ar:failedStep.str_in_reportId>
+                      <InArgument x:TypeArguments="x:Int32">
+                        <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">int_reportID</CSharpValue>
+                      </InArgument>
+                    </ar:failedStep.str_in_reportId>
+                    <ar:failedStep.str_in_testId>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">test_ID</CSharpValue>
+                      </InArgument>
+                    </ar:failedStep.str_in_testId>
+                  </ar:failedStep>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="letterboxd.com/Tester12/following" CVScreenId="66a228f1-651e-484c-adf1-897961a4e80f" ContentHash="fclb4ZMN_UWmUeYCApgbBA" DesignTimeRectangle="376, 386, 87, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname=' Sean Baker ' innertext=' Sean Baker ' visibleinnertext='Sean Baker' /&gt;" Guid="872f675e-3a37-42f0-a554-11fb1ce4bb3a" InformativeScreenshot="6f5f960bc83207fad10db425db427363.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/cwe3h64lp06nIthQjmv-NA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Tester12’s friends • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.CloseMode>
+        <InArgument x:TypeArguments="uix:NAppCloseMode">
+          <CSharpValue x:TypeArguments="uix:NAppCloseMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">UiPath.UIAutomationNext.Enums.NAppCloseMode.Never</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.CloseMode>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.OpenMode>
+        <InArgument x:TypeArguments="uix:NAppOpenMode">
+          <CSharpValue x:TypeArguments="uix:NAppOpenMode" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">UiPath.UIAutomationNext.Enums.NAppOpenMode.Never</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.OpenMode>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1616, 868" BrowserType="Edge" ContentHash="DR0L890EqkCHVOquA1ZMPQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATWSURBVHhe7ZtviBRlHMfH/gmV5pveiS/qRRiJgkVSYLe7M9tVEFk+sx7oebvdzbOHitpZ5OntXZJHqW0QghwWIXHZvxf5hxKtu0AJPcMXB6ei5AYn4eWeYYkhdvuT3+zOtPv8Rm9ndud27p6+8IFl5vnz+87sM/PM75lRFJ/1Alvz8PN68jWN8ZTKjF6N8ZOazjMq41mNGTcQ87fOM7ivUCaFdbCu2N6kUJS1LtQY/0BlxqDKjJzKDPAI1h3EtrBNsZ9A6eXEWzM03WhTGR9yMFIl+BD2gX2J/ddMrzStmxXVk12azq/QgP0B+8I+sW8xngkTAExTYzyuMeMPMcCJwuw7xuMYixifr1KZMUfT+TExoFpRiGWOGKcv0vTksxrjI2IQtQZjwtjEeKuqqJ5M5G9bNIAggLFhjGLcFYuxr+5WdSMtdhhYdCONMYs+PAkb0pixj3QScDDmqhyESXXmRXQjLfpxJRxPpNFJhudrQv5qH9wLXrmYzxtu7w7mfT6AtzqvFLyUN0/AWVWQJjnVAj2VNWPEqaVYecoQ43HRb4nw4aKWc3u/QW93fIDCJyyx0lQDPYq+TeWf5yfukbZWoEfHfEI+mUErTEXQq+hf8TeTEzT4UIl5zLfRQpSo3gzJxlehIxGF91vqYGO8HhLLGSk3HotXtsDCt+PwRHeTCf7GbWK5cTE6IPJGGsKbd0P4zY8g0roFr/S0nAMlOcZCApMUsmhcHoPv1z4GVzumA3QphEubHoS9qxfAkoZGUtciwgyY924TzOprACXDQPltaSkZZu7DMlhWrG+zYh2Ed+yH0LfDUPfDNULo4AiEd/aB2txO6xaBnu0DUMjekkJ4xtHYzc67iGknrqXug+0tz5F2nuHNMPPoMmr6NmBZrCO2E9n8MYS+yxLTjhz+yzxQd/hHDJrmMffulLp+MZaAgQ2zicly+HrNPLudJzck4N7TDmd8HLAO1rXaCacPUpNlEPr0F1AbVonmkZy57oALEA47oW/9o8SYG3panzbPohfzxQcB2whv3UuMuSHUc5T4Q9A7jn9csSnZscNYTAy5ZaxzGiz7aSUx5ZZFA9ug7sjfxJRbwh2fkAOA3nH89xZvfCmWgMub7ieGXPNZPYz8eoAYcsuP2SvQduo6MeSafb+D2rBaPAi9+A/A9Th7Y3dLmJrxwvlDALkxiJzx/i+Ye6ETxnI5GMjepIY8EGnvEf8BJ5X8QuV/G/vXP0LNuKV7BljaP7SNGCuXLRdP2O3U91FDbgn1HCs9ADrP4AwwW7xxeOND1JBbdi2wAz93dg8xVi5fXBq223n9eOXDIPRNRhgCPKuIaa/rqXuoIbd8udQOfHS4nxgrl5//vGq3kxr8hxhyzaFRYQgYN/4/AP4Mgfl24JUMgc8nZAj4cRHc+oAdeCUXwXcuHrfb8e0iGOTb4OMXuuBfv2+Dvk2E9qhVmQgdvjzq+0TIp6mwAnr/CmLILU+deM/fqbD0D0PSPw5LnxCpXkps/uRNiXlNirYnApAUbfuw8qQoSuq0OEr6hRHpl8ZQUi+OoqRfHkdJ/YIESvpXZFBSvyRlSerX5CxJ/aKkJalflUVJ/7I0SurX5Ysl7QcTxZL6kxlLUn80ZUnqz+aKJe2Hk6Kk/XTWSVJ+PH07Bf3z+VvojdodyfsJBQAAAABJRU5ErkJggg==" InformativeScreenshot="046ba44e2d688a7cce3484acd05594f4.jpg" Reference="ZUvOEy1d-kWJaPCLmKZ5Mg/3pxPNMLInEuE-f_LKofqkw" Selector="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" Url="https://letterboxd.com/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
