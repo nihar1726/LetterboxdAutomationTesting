@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="S6t-dMSZnEq_etGWlQOhaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/search/oscars" DesignTimeRectangle="12, -2266, 1343, 5391" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='content' /&gt;" Guid="4b97429f-a27c-47f2-9032-d62f173703df" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="6c7c49bf5bebaf7eeedf337db0db1ad0.jpg" xmlns="">0P7PZwia5ZE-jSFzRjZs6OA</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">None</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

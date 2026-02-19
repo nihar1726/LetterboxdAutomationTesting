@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="tvzf28xK1E6N8AsME4OkZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="2493626a-c170-4424-9682-3350f6ff054a" DesignTimeRectangle="579, 157, 113, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Tester12' innertext='Tester12' visibleinnertext='TESTER12' /&gt;" Guid="eabeca48-b91d-43eb-b164-9cc33e59e7f9" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="f33a44cd3c9fdbab4fff3ceba41c530a.jpg" xmlns="">0SVqWxgNDEkCo-6cXSEm8uA</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">CheckState</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

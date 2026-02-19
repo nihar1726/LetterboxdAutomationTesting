@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="NmPqlfCmLUivXFamqA_2XQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com" CVScreenId="fe6dc2e1-1aae-4cbe-aef5-0864078660af" CvElementArea="1017, 152, 143, 35" CvType="InputBox" DesignTimeRectangle="1019, 155, 140, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='search-q' tag='INPUT' type='text' class='field -borderless' aaname='Search:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="279f5d58-9d14-4716-9e6a-421334c4e4c2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Letterboxd • Social film discovery.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="5837cf7e41eed876329bff36edfc473b.jpg" xmlns="">0ZRuZCf3T7kGyn7fk-PKU-A</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">TypeInto</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>
