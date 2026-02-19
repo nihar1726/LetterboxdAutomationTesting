@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="B5gUXDkh7UipTddXt7W_UQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="letterboxd.com/search/Oscars" DesignTimeRectangle="209, 264, 670, 78" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='search-table-body' tag='LI' visibleinnertext='Oscars HQ&amp;#xA;Oscars' /&gt;" Guid="e2a34eff-17b4-4f4a-931b-153776abe363" ScopeSelectorArgument="&lt;html app='msedge.exe' title='‎Search results for Oscars • Letterboxd' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="3740b289444f3d5a4bdfe6024654d4af.jpg" xmlns="">0J9lHgKzyUESRmtZHRTowrA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
